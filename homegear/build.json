@@ -1,10 +1,10 @@
 {
     "build_from": {
-      "amd64": "homeassistant/amd64-base-debian:stretch",
-      "armhf": "homeassistant/armhf-base-raspbian:stretch",
-      "armv7": "homeassistant/armv7-base-debian:stretch",
-      "i386": "homeassistant/i386-base-debian:stretch",
-      "aarch64": "homeassistant/aarch64-base-debian:stretch"
+      "amd64": "homeassistant/amd64-base-debian:bullseye",
+      "armhf": "homeassistant/armhf-base-raspbian:bullseye",
+      "armv7": "homeassistant/armv7-base-debian:bullseye",
+      "i386": "homeassistant/i386-base-debian:bullseye",
+      "aarch64": "homeassistant/aarch64-base-debian:bullseye"
     },
     "args": {
       "HOMGEAR_VERSION": "nightly"
