@@ -1,9 +1,8 @@
 {
   "name": "Homegear",
-  "version": "0.80.0",
+  "version": "0.80.1",
   "slug": "homegear",
   "description": "Homegear as a Hassio add-on",
-  "arch": ["armv7", "aarch64" ,"armhf", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:2001]",
@@ -22,6 +21,10 @@
 	  "config:rw", 
 	  "share:rw"
   ],
+  "devices": [
+    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
+    "/dev/ttyACM0:/dev/ttyACM0:rwm"
+  ],	
   "ports": {
     "2001": 2001,
     "2002": 2002,
